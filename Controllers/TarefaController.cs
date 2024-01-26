@@ -10,7 +10,7 @@ namespace TrilhaApiDesafio.Controllers
     {
         private readonly OrganizadorContext _context;
 
-        public TarefaController(OrganizadorContext context)
+        public TarefaController(OrganizadorContext context) 
         {
             _context = context;
         }
